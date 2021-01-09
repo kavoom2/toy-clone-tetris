@@ -29,7 +29,6 @@ class Board {
         this.ctxNext.scale(blocksize, blocksize);
     }
 
-    grid;
     // 새 게임을 시작하면 보드를 초기화합니다.
     reset() {
         this.grid = this.getEmptyBoard();
@@ -170,7 +169,7 @@ class Board {
             if ( account.lines >= linesPerLevel ) {
                 account.level++;
                 account.lines -= linesPerLevel;
-                time.level = level[account.level] - 1
+                time.level = level[account.level]
             }
         }
     }

@@ -85,17 +85,17 @@ const tetroShapes = [
     ]
 ]
 
-const linesPerLevel = 3;
+const linesPerLevel = 8;
 
 const level = {
     0: 800,
-    1: 650,
-    2: 500,
-    3: 350,
-    4: 200,
-    5: 150,
-    2: 100,
-    1: 50,
+    1: 700,
+    2: 600,
+    3: 500,
+    4: 400,
+    5: 300,
+    6: 200,
+    7: 100,
 }
 
 Object.freeze(key, tetroColors, tetroShapes, points, level);
