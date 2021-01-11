@@ -3,6 +3,8 @@
 let time;
 let requestID;
 
+//test
+
 // 캔버스 사이즈 설정 
 const canvas = document.querySelector("#board");
 const ctx = canvas.getContext("2d");
